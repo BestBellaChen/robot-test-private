@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>智能体监控测试靶场</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; max-width: 800px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #333; }
+        .zone { padding: 20px; margin-bottom: 25px; border-radius: 8px; }
+        .noise-zone { background-color: #f8f9fa; border: 1px dashed #adb5bd; }
+        .noise-zone h3 { color: #6c757d; margin-top: 0; }
+        .noise-zone span { font-family: monospace; color: #d9534f; }
+        .core-zone { background-color: #e6f2ff; border: 2px solid #0d6efd; }
+        .core-zone h3 { color: #0d6efd; margin-top: 0; }
+    </style>
+</head>
+<body>
+    <h1>系统状态看板 (自动化测试靶场)</h1>
+    <p>此页面用于验证大模型是否具备“信息提纯”与“噪音过滤”能力。</p>
+
+    <div class="zone noise-zone">
+        <h3>🔕 动态噪音区 (无需报警)</h3>
+        <p>页面上次生成时间：<span id="dynamic-time">加载中...</span></p>
+        <p>今日累计并发请求：<span id="dynamic-count">加载中...</span> 次</p>
+        <p>系统状态监控探针：<span id="dynamic-hash">加载中...</span></p>
+    </div>
+
+    <div class="zone core-zone">
+        <h3>🎯 核心业务区 (发生变化需报警)</h3>
+        <p><strong>当前核心组件版本：</strong> v2.1.0</p>
+        <p><strong>最新发布日志：</strong></p>
+        <ul>
+            <li>修复了长文本解析时的内存溢出错误。</li>
+            <li>优化了 API 响应延迟，平均提升 150ms。</li>
+            </ul>
+    </div>
+
+    <script>
+        // 这里的脚本会在每次页面被抓取/加载时生成全新的随机数据
+        document.getElementById('dynamic-time').innerText = new Date().toISOString();
+        document.getElementById('dynamic-count').innerText = Math.floor(Math.random() * 50000) + 10000;
+        document.getElementById('dynamic-hash').innerText = Math.random().toString(36).substring(2, 15);
+    </script>
+</body>
+</html>
