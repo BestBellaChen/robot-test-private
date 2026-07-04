@@ -108,6 +108,64 @@ MCP 云产品一键授权开通相关协议
 历史模型下线公告：​
 模型下线公告 2025​
 模型下线公告 2024​
+第九批模型下线说明​
+下线计划​
+​
+节点​
+时间​
+动作&影响​
+启动&通知​
+2026-7-3 10:00:00（UTC+8）​
+方舟逐步下调模型配额。​
+EOM​
+模型停止新购​
+2026-7-10 10:00:00（UTC+8）​
+用户无法新增接入点等，详细说明见1.模型停止新购(EOM)。​
+建议提前切换至对应的替换模型，并测试验证新模型对业务的影响。​
+EOS​
+模型服务下线​
+2026-09-21 14:00 （UTC+8）​
+模型正式下线并残留接入点自动替换为新模型，详细说明2.模型下线 (EOS)。​
+​
+下线模型​
+注意​
+若业务使用了 Bot API 或 Context API ，请先按文档进行改造迁移至 Responses API ，否则模型下线后会出现调用报错。表格中已对支持 Bot API 、 Context API 的模型进行标注，迁移教程参见迁移至 Responses API。​
+不同模型/版本支持的能力、API 参数、单价、任务中实际表现存在差异，迁移前请务必仔细阅读模型介绍，并进行必要评测，比较迁移前后模型的表现。​
+​
+模型 ID​
+建议迁移模型​
+推荐迁移最新版本模型，下表随模型迭代动态更新​
+kimi-k2-5-260127​
+doubao-evolving-latest-version​
+glm-4-7-251222​
+glm-5-2-260617​
+deepseek-v3-2-251201 Bot API​
+deepseek-v4-flash-260425​
+doubao-seed-code-preview-251028​
+doubao-evolving-latest-version​
+doubao-seed-1-8-251228​
+doubao-seed-2-0-lite-260428​
+doubao-seed-1-6-vision-250815​
+doubao-seed-2-0-lite-260428​
+doubao-seed-1-6-250615​
+doubao-seed-2-0-lite-260428​
+doubao-seed-1-6-251015​
+doubao-seed-2-0-lite-260428​
+doubao-seed-1-6-flash-250828​
+doubao-seed-2-0-mini-260428​
+doubao-seed-1-6-flash-250615​
+doubao-seed-2-0-mini-260428​
+doubao-1-5-lite-32k-250115 Bot API,Context API​
+doubao-seed-2-0-mini-260428​
+doubao-1-5-vision-pro-32k-250115 Bot API​
+doubao-seed-2-0-lite-260428​
+doubao-1-5-pro-32k-250115 Bot API,Context API​
+doubao-seed-2-0-lite-260428​
+doubao-1-5-pro-32k-character-250715 Bot API,Context API​
+doubao-seed-character-260628​
+doubao-seedance-1-5-pro-251215​
+doubao-seedance-2-0-mini-260615​
+​
 第八批模型下线说明​
 下线计划​
 ​
@@ -218,7 +276,7 @@ EOS：End of Service & Support，模型停止服务，模型服务下线。​
 由于精调模型依赖基座模型，如果需要变更精调模型对应的基座模型，需要在新的模型版本上再次精调模型，并验证效果达到预期后，再创建新的推理接入点，完成相应的代码变更，实现迁移。​
 如有其他迁移问题，可以通过提交工单的方式，进行咨询。​
 ​
-最近更新时间：2026.06.29 23:32:50
+最近更新时间：2026.07.03 17:56:32
 这个页面对您有帮助吗？
 有用
 有用
