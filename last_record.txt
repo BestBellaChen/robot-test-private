@@ -1,14 +1,14 @@
 文档中心
+火山方舟 Agent Plan
+火山方舟 Coding Plan
+火山方舟
 节省计划
-AgentKit
 火山方舟大模型服务平台
-豆包语音
-API网关
+火山方舟 Agent Plan
+火山方舟 Coding Plan
+火山方舟
 节省计划
-AgentKit
 火山方舟大模型服务平台
-豆包语音
-API网关
 简体
 文档控制台
 登录注册
@@ -55,6 +55,7 @@ TPM 保障包计费说明
 豆包助手计费
 知识库计费
 PromptPilot 计费
+Seedance 2.0 高级创作权益包购买说明
 税率与发票
 权限管理
 使用 IAM 管理权限
@@ -139,7 +140,7 @@ kimi-k2-5-260127​
 doubao-evolving-latest-version​
 glm-4-7-251222​
 glm-5-2-260617​
-deepseek-v3-2-251201 Bot API​
+deepseek-v3-2-251201 支持 Bot API​
 deepseek-v4-flash-260425​
 doubao-seed-code-preview-251028​
 doubao-evolving-latest-version​
@@ -155,13 +156,13 @@ doubao-seed-1-6-flash-250828​
 doubao-seed-2-0-mini-260428​
 doubao-seed-1-6-flash-250615​
 doubao-seed-2-0-mini-260428​
-doubao-1-5-lite-32k-250115 Bot API,Context API​
+doubao-1-5-lite-32k-250115 支持 Bot API, Context API​
 doubao-seed-2-0-mini-260428​
-doubao-1-5-vision-pro-32k-250115 Bot API​
+doubao-1-5-vision-pro-32k-250115 支持 Bot API​
 doubao-seed-2-0-lite-260428​
-doubao-1-5-pro-32k-250115 Bot API,Context API​
+doubao-1-5-pro-32k-250115 支持 Bot API, Context API​
 doubao-seed-2-0-lite-260428​
-doubao-1-5-pro-32k-character-250715 Bot API,Context API​
+doubao-1-5-pro-32k-character-250715 支持 Bot API, Context API​
 doubao-seed-character-260628​
 doubao-seedance-1-5-pro-251215​
 doubao-seedance-2-0-mini-260615​
@@ -276,7 +277,7 @@ EOS：End of Service & Support，模型停止服务，模型服务下线。​
 由于精调模型依赖基座模型，如果需要变更精调模型对应的基座模型，需要在新的模型版本上再次精调模型，并验证效果达到预期后，再创建新的推理接入点，完成相应的代码变更，实现迁移。​
 如有其他迁移问题，可以通过提交工单的方式，进行咨询。​
 ​
-最近更新时间：2026.07.03 17:56:32
+最近更新时间：2026.07.06 16:30:19
 这个页面对您有帮助吗？
 有用
 有用
