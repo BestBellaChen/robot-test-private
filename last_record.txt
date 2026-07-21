@@ -30,11 +30,12 @@ Seedance 2.0 系列模型资源包使用规则
 协作奖励计划
 免费推理额度
 实践教程
+Managed Agent
 Ark CLI 使用指南
 方舟文档 MCP
 快速入门(新手版)
-Seedance-1.5-pro 提示词指南
-Seedance-1.0-pro&pro-fast 提示词指南
+Seedance 1.5 pro 提示词指南
+Seedance 1.0 系列提示词指南
 Seedream 4.0-5.0 提示词指南
 Seedream 4.0 助力 Seedance 生视频最佳实践
 RAG（检索增强）解决方案
