@@ -12,7 +12,7 @@
 登录注册
 登录注册
 火山方舟
-文档指南订阅 [Agent/Coding Plan]API参考资源
+文档指南订阅 [Agent/Coding Plan]API参考资源AI 套件
 二级导航功能
 导航栏会按照模块拆分文档内容，方便你快速切换到所需信息哦
 我知道了不再提醒
@@ -40,8 +40,6 @@ Seedance 模型限时折扣活动规则
 免费推理额度
 实践教程
 Managed Agent
-Ark CLI 使用指南
-方舟文档 MCP
 快速入门(新手版)
 Seedance 1.5 pro 提示词指南
 Seedance 1.0 系列提示词指南
@@ -161,8 +159,6 @@ doubao-seed-2-0-mini-260215​
 doubao-seed-2-0-mini-260428​
 doubao-seed-2-0-pro-260215​
 doubao-seed-2-1-pro-260915​
-doubao-seed-2-1-turbo-260628​
-doubao-seed-2-1-lite-260915​
 doubao-embedding-vision-250615​
 doubao-embedding-vision-251215​
 doubao-seedance-1-0-pro-250528​
@@ -377,7 +373,7 @@ EOS：End of Service & Support，模型停止服务，模型服务下线。​
 由于精调模型依赖基座模型，如果需要变更精调模型对应的基座模型，需要在新的模型版本上再次 精调模型，并验证效果达到预期后，再创建新的推理接入点，完成相应的代码变更，实现迁移。​
 如有其他迁移问题，可以通过提交 工单 的方式，进行咨询。​
 ​
-最近更新时间：2026.09.24 07:20:32
+最近更新时间：2026.09.24 23:28:11
 这个页面对您有帮助吗？
 有用
 有用
