@@ -157,7 +157,7 @@ doubao-seed-2-1-lite-260915​
 doubao-seed-2-0-mini-260215​
 doubao-seed-2-0-mini-260428​
 doubao-seed-2-0-pro-260215​
-doubao-seed-2-1-pro-260915​
+doubao-seed-2-1-lite-260915​
 doubao-embedding-vision-250615​
 doubao-embedding-vision-251215​
 doubao-seedance-1-0-pro-250528​
@@ -170,7 +170,7 @@ doubao-seedream-4-0-250828​
 doubao-seedream-4-0-20260415​
 doubao-seedream-4-5-251128​
 doubao-seedream-5-0-pro-260628​
-doubao-seedream-5-0-lite-260128​
+doubao-seedream-5-0-lite-260128 / doubao-seedream-5-0-260128​
 doubao-seedream-5-0-pro-260628​
 glm-5-1-260428​
 doubao-seed-evolving​
@@ -372,7 +372,7 @@ EOS：End of Service & Support，模型停止服务，模型服务下线。​
 由于精调模型依赖基座模型，如果需要变更精调模型对应的基座模型，需要在新的模型版本上再次 精调模型，并验证效果达到预期后，再创建新的推理接入点，完成相应的代码变更，实现迁移。​
 如有其他迁移问题，可以通过提交 工单 的方式，进行咨询。​
 ​
-最近更新时间：2026.09.30 16:16:44
+最近更新时间：2026.10.09 17:49:07
 这个页面对您有帮助吗？
 有用
 有用
