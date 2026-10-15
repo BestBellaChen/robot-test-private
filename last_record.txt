@@ -146,34 +146,56 @@ doubao-seed-2-0-lite-260215 及 doubao-seed-2-0-mini-260215 模型的 EOS 时间
 注意​
 不同模型/版本支持的能力、API 参数、单价、任务中实际表现存在差异，迁移前请务必仔细阅读模型介绍，并进行必要评测，比较迁移前后模型的表现。​
 embedding 模型迁移需要先对存量的知识库进行重建，再进行迁移操作。不同于其他基础模型，embedding 模型仅有EOM阶段，不涉及EOS阶段。即待下线的embedding 模型会在「EOM时间」停止新增接入点，但不影响存量服务的正常使用。​
+生图生视频模型不会自动迁移到新模型。请提前使用新模型进行接入点进行使用，避免影响业务。​
 ​
 模型 ID​
 建议迁移模型​
 推荐迁移最新版本模型，下表随模型迭代动态更新​
+到期未迁移，系统替换模型​
 doubao-seed-2-0-lite-260215​
 doubao-seed-2-1-lite-260915​
+doubao-seed-2-0-lite-260428​
 doubao-seed-2-0-mini-260215​
+doubao-seed-2-0-mini-260428​
 doubao-seed-2-0-mini-260428​
 doubao-seed-2-0-pro-260215​
 doubao-seed-2-1-lite-260915​
+具体替换模型在服务下线前确定并更新​
 doubao-embedding-vision-250615​
 doubao-embedding-vision-251215​
+不强制切换​
 doubao-seedance-1-0-pro-250528​
 doubao-seedance-2-0-mini-260615​
+关停​
+说明​
+建议提前切换至对应的替换模型，并测试验证新模型对业务的影响。​
 doubao-seedance-1-0-pro-fast-251015​
 doubao-seedance-2-0-mini-260615​
+关停​
+说明​
+建议提前切换至对应的替换模型，并测试验证新模型对业务的影响。​
 doubao-seed-2-0-code-preview-260215​
 doubao-seed-evolving​
+具体替换模型在服务下线前确定并更新​
 doubao-seedream-4-0-250828​
 doubao-seedream-4-0-20260415​
+具体替换模型在服务下线前确定并更新​
 doubao-seedream-4-5-251128​
 doubao-seedream-5-0-pro-260628​
+关停​
+说明​
+建议提前切换至对应的替换模型，并测试验证新模型对业务的影响。​
 doubao-seedream-5-0-lite-260128 / doubao-seedream-5-0-260128​
 doubao-seedream-5-0-pro-260628​
+关停​
+说明​
+建议提前切换至对应的替换模型，并测试验证新模型对业务的影响。​
 glm-5-1-260428​
 doubao-seed-evolving​
+具体替换模型在服务下线前确定并更新​
 deepseek-v4-pro-260425​
 deepseek-v4-1-flash-260910​
+具体替换模型在服务下线前确定并更新​
 ​
 第九批模型下线说明​
 下线计划​
@@ -370,7 +392,7 @@ EOS：End of Service & Support，模型停止服务，模型服务下线。​
 由于精调模型依赖基座模型，如果需要变更精调模型对应的基座模型，需要在新的模型版本上再次 精调模型，并验证效果达到预期后，再创建新的推理接入点，完成相应的代码变更，实现迁移。​
 如有其他迁移问题，可以通过提交 工单 的方式，进行咨询。​
 ​
-最近更新时间：2026.10.09 17:49:07
+最近更新时间：2026.10.14 23:23:28
 这个页面对您有帮助吗？
 有用
 有用
