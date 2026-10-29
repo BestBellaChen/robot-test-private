@@ -27,6 +27,7 @@
 模型发布公告
 模型下线公告
 下线模型迁移说明
+LTS 机制说明
 历史公告
 方舟官方 SDK 升级公告
 API 兼容性升级公告
@@ -110,16 +111,16 @@ MCP 云产品一键授权开通相关协议
 火山方舟产品公告模型下线公告
 复制全文
 下载 pdf
-已收起全部折叠内容
 我的收藏
 产品公告
 模型下线公告
 复制全文
 下载 pdf
-已收起全部折叠内容
 我的收藏
 模型下线公告
 随着火山方舟平台模型的升级、发布，新版本模型在效果、推理时延等各方面将远超较旧版本的模型。因此，我们将逐步下线这些旧版本模型。当某个模型确定下线计划时，我们会通过短信、站内信等方式发布通知，请及时关注。​
+说明​
+长期支持（Long-Term Support，简称 LTS）模型提供至少 1 年的生命周期保障，对于需要长期稳定运行并减少版本迁移的业务，建议优先将 LTS 模型版本作为候选版本，并在接入前完成业务验证。关于 LTS 模型列表及支持机制，请参见 LTS 机制说明。​
 历史模型下线公告：​
 模型下线公告 2025​
 模型下线公告 2024​
@@ -156,10 +157,10 @@ embedding 模型迁移需要先对存量的知识库进行重建，再进行迁�
 到期未迁移，系统替换模型​
 doubao-seed-2-0-lite-260215​
 doubao-seed-2-1-lite-260915​
-doubao-seed-2-0-lite-260428​
+doubao-seed-2-0-lite-260428 LTS​
 doubao-seed-2-0-mini-260215​
-doubao-seed-2-0-mini-260428​
-doubao-seed-2-0-mini-260428​
+doubao-seed-2-0-mini-260428 LTS​
+doubao-seed-2-0-mini-260428 LTS​
 doubao-seed-2-0-pro-260215​
 doubao-seed-2-1-lite-260915​
 具体替换模型在服务下线前确定并更新​
@@ -245,32 +246,32 @@ doubao-seed-code-preview-251028​
 doubao-seed-evolving​
 doubao-seed-evolving​
 doubao-seed-1-8-251228​
-doubao-seed-2-0-lite-260428​
-doubao-seed-2-0-lite-260428​
+doubao-seed-2-0-lite-260428 LTS​
+doubao-seed-2-0-lite-260428 LTS​
 doubao-seed-1-6-vision-250815​
-doubao-seed-2-0-lite-260428​
-doubao-seed-2-0-lite-260428​
+doubao-seed-2-0-lite-260428 LTS​
+doubao-seed-2-0-lite-260428 LTS​
 doubao-seed-1-6-250615​
-doubao-seed-2-0-lite-260428​
-doubao-seed-2-0-lite-260428​
+doubao-seed-2-0-lite-260428 LTS​
+doubao-seed-2-0-lite-260428 LTS​
 doubao-seed-1-6-251015​
-doubao-seed-2-0-lite-260428​
-doubao-seed-2-0-lite-260428​
+doubao-seed-2-0-lite-260428 LTS​
+doubao-seed-2-0-lite-260428 LTS​
 doubao-seed-1-6-flash-250828​
-doubao-seed-2-0-mini-260428​
-doubao-seed-2-0-mini-260428​
+doubao-seed-2-0-mini-260428 LTS​
+doubao-seed-2-0-mini-260428 LTS​
 doubao-seed-1-6-flash-250615​
-doubao-seed-2-0-mini-260428​
-doubao-seed-2-0-mini-260428​
+doubao-seed-2-0-mini-260428 LTS​
+doubao-seed-2-0-mini-260428 LTS​
 doubao-1-5-lite-32k-250115 支持 Bot API, Context API​
-doubao-seed-2-0-mini-260428​
-doubao-seed-2-0-mini-260428​
+doubao-seed-2-0-mini-260428 LTS​
+doubao-seed-2-0-mini-260428 LTS​
 doubao-1-5-vision-pro-32k-250115 支持 Bot API​
-doubao-seed-2-0-lite-260428​
-doubao-seed-2-0-lite-260428​
+doubao-seed-2-0-lite-260428 LTS​
+doubao-seed-2-0-lite-260428 LTS​
 doubao-1-5-pro-32k-250115 支持 Bot API, Context API​
-doubao-seed-2-0-lite-260428​
-doubao-seed-2-0-lite-260428​
+doubao-seed-2-0-lite-260428 LTS​
+doubao-seed-2-0-lite-260428 LTS​
 doubao-1-5-pro-32k-character-250715 支持 Bot API, Context API​
 doubao-seed-character-260628​
 doubao-seed-character-260628​
@@ -394,7 +395,7 @@ EOS：End of Service & Support，模型停止服务，模型服务下线。​
 由于精调模型依赖基座模型，如果需要变更精调模型对应的基座模型，需要在新的模型版本上再次 精调模型，并验证效果达到预期后，再创建新的推理接入点，完成相应的代码变更，实现迁移。​
 如有其他迁移问题，可以通过提交 工单 的方式，进行咨询。​
 ​
-最近更新时间：2026.10.14 23:23:28
+最近更新时间：2026.10.29 11:22:59
 这个页面对您有帮助吗？
 有用
 有用
@@ -483,4 +484,3 @@ GPU云服务器
 © 北京火山引擎科技有限公司 2026 版权所有代理域名注册服务机构：新网数码 商中在线京公网安备11010802032137号京ICP备20018813号-3营业执照增值电信业务经营许可证京B2-20202418，A2.B1.B2-20202637网络文化经营许可证：京网文（2023）4872-140号域名注册服务机构许可：京D3-20250002
 © 北京火山引擎科技有限公司 2026 版权所有代理域名注册服务机构：新网数码 商中在线服务条款隐私政策更多协议
 京公网安备11010802032137号京ICP备20018813号-3营业执照增值电信业务经营许可证京B2-20202418，A2.B1.B2-20202637网络文化经营许可证：京网文（2023）4872-140号域名注册服务机构许可：京D3-20250002
-rangeDom
